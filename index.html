@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Gmail</title>
+</head>
+<body>
+    <!-- header section start-->
+        <header class="header df fixed">
+            <div class="logo df flex-shrink "> 
+                <div class="all-icon-style icon-margin-8"><a href="" class="menu-icon all-icon-size "><img src="asset/images/3-bar.jpg" alt=""></a></div>
+                <div><a href="#" class="logo_icon"><img src="asset/images/gmail-logo.png" alt=""></a></div>
+            </div>
+
+           <div class="header-main df">
+                <div class="search-box df all-icon-style all-icon-size icon-margin-8">
+                     <a class="bg-color" href=""><img src="asset/images/search.png" alt=""></a>
+                    <div class="search">
+                        <input type="search" name="search" id="search" class="bg-color" placeholder="Search mail">
+                    </div>
+                    <a class="bg-color" href=""><img src="asset/images/search-bar.png" alt=""></a>
+                </div>
+               <div class="header-right df flex-shrink all-icon-style all-icon-size icon-margin-8">
+                    <a href=""><img src="asset/images/question.svg" alt="">
+                    </a>
+                    <a href=""><img src="asset/images/setting.png" alt=""></a>
+                    <a href=""><img src="asset/images/dot.svg" alt=""></a>
+                    <a class="profile-img" href=""><img src="asset/images/prof.jpg" alt="" ></a>
+                </div>
+           </div>
+        </header>
+
+<!-- header section end-->
+
+    <div class="wrapper df">
+        <!--left sidebar start-->
+        <div class="left-sidebar-box fixed " id="left-sidebar-box">
+            <div class="plus-icon df">
+                <div><a href=""><img src="asset/images/plus.png" alt=""></a></div>
+                <div class="plus-icon-text"><span>Compose</span></div>
+            </div>
+            <!-- left-sidebar-top start-->
+            <div class="left-sidebar-top border-bottom all-icon-style all-icon-size left-sidebar-icon">
+                <a href=""><img src="asset/images/inbox.png" alt="" /> <span>Inbox </span><span class="count">1</span></a>
+                <a href=""><img src="asset/images/star.png" alt="" /><span>Starred</span></a>
+                <a href=""><img src="asset/images/watch.png" alt="" /><span>Snoozed</span></a>
+                <a href=""><img src="asset/images/send.png" alt="" /><span>Sent</span></a>
+                <a href=""><img src="asset/images/draft.png" alt="" /><span>Drafts</span> <span class="count">6</span></a>
+                <div id="more" ><img src="asset/images/arrow-down.png" alt="" /><span>More</span></div>
+                   <div id="more-box" class="hidden">
+                        <a href=""><img src="asset/images/important.png" alt="" /><span>Important</span></a>
+                        <a href=""><img src="asset/images/chait.png" alt="" /><span>Chats</span></a>
+                        <a href=""><img src="asset/images/schedule_send.png" alt="" /><span>Scheduled</span></a>
+                        <a href=""><img src="asset/images/mail.png" alt="" /><span>All Mail</span></a>
+                        <a href=""><img src="asset/images/span.png" alt="" /><span>Spam </span><span class="count">9</span></a>
+                        <a href=""><img src="asset/images/trash.png" alt="" /><span>Trash</span></a>
+                        <div id="category" ><img class="category-img-1" src="asset/images/arrow_down-category.png" alt="">
+                            <img class="category-img-2" src="asset/images/category.png" alt="" /><span>Category</span></div>
+                        <div id="category-box" class="hidden">
+                            <a href="" ><img src="asset/images/social.png" alt="" /><span>Social</span> <span class="count">10</span></a>
+                            <a href=""><img src="asset/images/update.png" alt="" /><span>Updates</span> <span class="count">5</span></a>
+                            <a href=""><img src="asset/images/fornus.png" alt="" /><span>Forums</span></a>
+                            <a href=""><img src="asset/images/tag.png" alt="" /><span>Promotions</span> <span class="count">6</span></a>
+                        </div>
+                        <a href=""><img src="asset/images/setting.png" alt="" /><span>Manage labels</span></a>
+                        <a href=""><img src="asset/images/plus-simple.png" alt="" /><span>Create new label</span></a>
+                   </div>
+            </div>
+
+            <!-- left-sidebar-top end-->
+
+            <!-- left-sidebar-middle start-->
+            <div class="left-sidebar-top_2">
+                <div class="left-sidebar-middle border-bottom all-icon-style all-icon-size left-sidebar-icon">
+                    <a href="" class="no-hover"><img src="asset/images/meet-title.png" alt="" /></a>
+                    <a href=""><img src="asset/images/meating.png" alt="" /><span>New meeting</a></span>
+                    <a href=""><img src="asset/images/join-meating.png" alt="" /><span>Join a meeting</span></a>
+                </div>
+                <!-- left-sidebar-middle end-->
+
+                <!-- left-sidebar-bottom start-->
+                <div class="left-sidebar-bottom border-bottom all-icon-style all-icon-size left-sidebar-icon">
+                    <a href="" class="no-hover"><img src="asset/images/hangout.png" alt="" /></a>
+                   <div class="df"> <a href="" class="profile-img no-hover"><img src="asset/images/prof.jpg" alt="" /><span>amit maurya</span> <img src="asset/images/arrow-down2.png" alt=""> <img src="asset/images/plus-simple.png" alt=""></a></div>
+                    
+                    <div class="hangout-box">
+                        <div>
+                            <p> No hangout contacts</p>
+                            <a href="" class="no-hover">Find someone</a>
+                        </div>
+                      
+                    </div>
+                </div> 
+              <!-- left-sidebar-bottom start-->
+
+            </div>
+            <div class="left-sidebar-footer df all-icon-style all-icon-size">
+                <a href=""><img src="asset/images/contacts.png" alt=""></a>
+                <a href=""><img src="asset/images/hangout.png" alt=""></a>
+            </div>
+        </div>
+        <!-- sidebar end-->
+
+        
+        <!-- main-session start-->
+        <div class="main-section" id="main-section">
+
+            <div class="main-box-header df fixed border-bottom" id="main-box-header">
+               <div class="main-box-header-left df"> 
+                <div class="check-box  df">
+                    <div><input type="checkbox" name="select" id=""></div> 
+                    <a href=""><img src="asset/images/arrow-down2.png" alt=""></a>
+                    </div> 
+                    <div class="refresh all-icon-style df all-icon-size">
+                        <a href=""><img src="asset/images/refresh.png" alt=""></a>
+                        <a href=""><img src="asset/images/more.png" alt=""></a>
+                    </div>
+              </div> 
+               <div class="main-box-header-right">
+                   <div class="df headerRight v-align-center mainBoxHeader all-icon-size">
+                       <div>
+                           <p>1-8 of 8</p>
+                       </div>
+                       <div><a href=""><img src="asset/images/arr.png" alt=""></a></div>
+                       <div><a href=""><img src="asset/images/arrow-do.png" alt=""></a></div>
+                       <div>
+                           <a href=""><img src="asset/images/join-meating.png" alt=""></a>
+                           <a href=""><img src="asset/images/arrow-down2.png" alt=""></a>
+                        </div>
+                   </div>
+               </div>
+            
+            </div>
+            <div class="toggle-arrow all-icon-size" id="toggle-arrow">
+                <img src="asset/images/arr.png" alt="">
+            </div>
+            
+            <!-- main-session-mail-box start -->
+            <div class="mail-box-wrapper">
+                 <!-- category tab start-->
+            <div class="category-bar df border-bottom">
+                <div class="category-bar-1 df all-icon-size">
+                    <div><img src="asset/images/inbox.png" alt=""></div>
+                    <div>Primary</div>
+                </div> 
+                <div class="category-bar-2 df all-icon-size">
+                    <div><img src="asset/images/social.png" alt=""></div>
+                    <div>Social</div>
+                </div>
+                <div class="category-bar- df all-icon-size">
+                    <div><img src="asset/images/tag.png" alt=""></div>
+                    <div>Promotions</div>
+                </div>    
+            </div>
+             <!-- category tab end-->
+                 <!-- dumy mail-box start-->
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>   
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">MyGov </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Celebrating 8 Years of Seva, Sushasan, Garib Kalyan-</h4></div>
+                                <div class="mail-box-desc"><p>Having trouble reading this email? View it in your mobile/ web browser</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>Jun 3</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8"> Team HR </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+                  <!-- real mail-box start-->
+                  <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Login alert for Facebook Lite-</h4></div>
+                                <div class="mail-box-desc"><p>We noticed an unusual login from a device or location you don't usually use. Was this you?</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10:41 AM</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                <div>+1</div>
+                            </a>
+
+                    </div>
+                </div>  
+                <!-- real mail-box end-->
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8"> PhonePe </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>How to celebrate World Environment Day?-</h4></div>
+                                <div class="mail-box-desc"><p>If you do not wish to receive any further communications,</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>3 jun</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+
+                    </div>
+                </div>  
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Prime Minister's Office</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Highlights of Mann Ki Baat May 2022-</h4></div>
+                                <div class="mail-box-desc"><p>Having trouble reading this email? View it in your mobile/ web browser</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Login alert for Facebook Lite-</h4></div>
+                                <div class="mail-box-desc"><p>We noticed an unusual login from a device or location you don't usually use. Was this you?</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10:41 AM</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+
+                    </div>
+                </div>  
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                             <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>   
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">MyGov </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Celebrating 8 Years of Seva, Sushasan, Garib Kalyan-</h4></div>
+                                <div class="mail-box-desc"><p>Having trouble reading this email? View it in your mobile/ web browser</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>Jun 3</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8"> Team HR </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8"> PhonePe </div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>How to celebrate World Environment Day?-</h4></div>
+                                <div class="mail-box-desc"><p>If you do not wish to receive any further communications,</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>3 jun</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+
+                    </div>
+                </div>  
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>New jobs for Php Developer-</h4></div>
+                                <div class="mail-box-desc"><p>We found 20 new jobs for you. Click on the following jobs to apply</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Prime Minister's Office</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Highlights of Mann Ki Baat May 2022-</h4></div>
+                                <div class="mail-box-desc"><p>Having trouble reading this email? View it in your mobile/ web browser</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10 may</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                   <!-- <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                +1
+                            </a>
+
+                    </div> 
+                -->
+                </div>
+
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Login alert for Facebook Lite-</h4></div>
+                                <div class="mail-box-desc"><p>We noticed an unusual login from a device or location you don't usually use. Was this you?</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10:41 AM</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+
+                    </div>
+                </div>  
+
+
+                <!-- dumy mail-box end-->
+
+                <!-- real mail-box start-->
+                <div class="mail border-bottom">
+                    <div class="mail-box df">
+                        
+                        <div class="mail-box-left df">
+                            <div class="check-box  ">
+                                    <input type="checkbox" name="select" id="">
+                            </div> 
+                            <div class="all-icon-style df all-icon-size">
+                                <a href=""><img src="asset/images/star.png" alt=""></a>
+                                <div class="padding-8">Facebook</div>
+                            </div>
+                        </div>
+                        <div class="mail-box-right df padding-8">
+                                <div class="mail-box-heading"><h4>Login alert for Facebook Lite-</h4></div>
+                                <div class="mail-box-desc"><p>We noticed an unusual login from a device or location you don't usually use. Was this you?</p></div>
+                                <div>...</div>
+                        </div>
+                        <div class="mail-box-time df">
+                            <div>10:41 AM</div>
+                        </div>
+                        <div class="mail-box-menu df all-icon-style df all-icon-size">
+                            <a href=""><img src="asset/images/achi.png" alt=""></a>
+                            <a href=""><img src="asset/images/trash.png" alt=""></a>
+                            <a href=""><img src="asset/images/mail.png" alt=""></a>
+                            <a href=""><img src="asset/images/watch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="attachment df ">
+                          <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>document.pdf</div>
+                           </a>
+                           <a href="" class="df">
+                                <div><img src="asset/images/pdf.png" alt=""></div>
+                                <div>documen2.pdf</div>
+                            </a>
+                            <a href="" class="df">
+                                <div><img src="asset/images/image.png" alt=""></div>
+                                <div>amit.jpg</div>
+                            </a>
+                            <a href="" class="count-attech">
+                                <div>+1</div>
+                            </a>
+
+                    </div>
+                </div>  
+                <!-- real mail-box end-->
+            </div>
+            <!-- main-session-mail-box end--> 
+
+        </div>
+                 
+        <!-- main-session end-->
+    
+        <!-- right sidebar start-->
+        <div class="right-sidebar-box all-icon-style fixed all-icon-size" id="right-sidebar">
+            <div class="right-sidebar-icons df">
+                 <a href=""><img src="asset/images/calendar.png" alt=""></a>
+                 <a href=""><img src="asset/images/bulb.png" alt=""></a>
+                 <a href=""><img src="asset/images/right-tik.png" alt=""></a>
+                 <a href=""><img src="asset/images/contacts.png" alt=""></a>
+                 <div class="right-sidebar-border"></div>
+                 <a href=""><img src="asset/images/plus-simple.png" alt=""></a>
+            </div>
+        
+                
+            
+
+        </div>
+        <!-- right sidebar end-->
+    </div>
+    <script src="asset/js/style.js"></script>
+</body>
+</html>
